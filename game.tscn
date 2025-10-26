@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://biy160b3qowsc"]
+
+[ext_resource type="Texture2D" uid="uid://cmp7lfu6yjri7" path="res://screen_ratios_4k_24-10.png" id="1_80nbo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ScreenRatios4k2410" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_80nbo")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(960, 540)
